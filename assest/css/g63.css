@@ -1,0 +1,10 @@
+/* slide */
+.bottom {
+    bottom: -10px;
+}
+
+.align-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

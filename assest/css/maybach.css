@@ -1,0 +1,115 @@
+.infor--car {
+    background-color: #000;
+    margin-top: -6px;
+}
+
+.car__Control {
+    width: 88%;
+    margin: 0 auto;
+}
+
+.span {
+    padding: 40px 0px;
+}
+
+.text--car {
+    color: #999999;
+    font-size: 14px;
+    line-height: 17.9999px;
+    font-weight: 200;
+}
+
+.span-text {
+    color: #fff;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 4px;
+    font-size: 20px;
+}
+
+.header--car {
+    color: #fff;
+    padding: 20px 0 10px 0;
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.text--paragerap {
+    width: 50%;
+    color: #fff;
+    font-weight: 100;
+}
+
+.margin_top {
+    margin-top: 50px;
+}
+
+/* img */
+.img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex {
+    flex-direction: row-reverse;
+}
+
+.col-2 {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.img__car {
+    margin-right: 50px;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.img--text-car {
+    /* width: 650px; */
+    width: 550px;
+}
+
+.img-hover {
+    position: relative;
+    transform: scale(1.0);
+    transition: transform 0.4s linear;
+}
+
+.xemthem {
+    position: absolute;
+}
+
+
+
+.img-hover:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s linear;
+}
+
+.intro {
+    padding-top: 12px;
+}
+
+.text-car--span {
+    color: #999;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.text-infor {
+    font-size: 26px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.list--item-car {
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+.text-infor,
+.list--item-car {
+    color: #fff;
+}

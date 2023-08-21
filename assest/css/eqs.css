@@ -1,0 +1,26 @@
+.text-p {
+    padding: 20px 0px;
+    font-size: 12px;
+    color: #bbb;
+    font-weight: 100;
+}
+
+.tecnology {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #00adef;
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.tecnology:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.font-zise {
+    font-size: 16px;
+    font-weight: 100;
+}

@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes-benz</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="shortcut icon" href="./img/tải xuống.jpeg"Type="image/x-icon">
+    <!-- <link rel="stylesheet" href="./bootstrap-4.6.2-dist/css/bootstrap.css"> -->
+    <!-- animation scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <link rel="stylesheet" href="./assest/css/maybach.css">
+    <link rel="stylesheet" href="./assest/css/g63.css">
+</head>
+<body>
+    <div class="main">
+        <!-- heading -->
+        <header class="header">
+            <div class="header__log">
+                <div class="infor-logo">
+                    <a href="./index.html" class="header__logo-link">
+                        <img class="img-logo" src="./img/logo2.jpg" alt="">
+                    </a>
+                    
+                    <span class="text-logo">Mercedes-benz</span>
+                </div>
+
+                <div class="conten-search">
+                    <span class="license-car">© 2022. Mercedes-Benz AG. Bảo lưu mọi quyền (Thông tin xuất bản)</span>
+                    <span class="langue-en">EN</span>
+                    <span class="langue-vn">VI</span>
+
+                    <div class="search">
+                        <input class="input-search" type="search" placeholder="Từ khóa timf kiếm/Online cấu hình xe">
+                        <i class="icon-search fa-solid fa-magnifying-glass"></i>
+                        <a href="./login.html" class="link-icon">
+                            <i class="icon-user fa-solid fa-user" style="color: #eff0f0;"></i>
+                        </a>
+
+                        <!-- cart -->
+                        <div class="header-cart">
+                            <div class="header__car--wrap">
+                                <i class="header__cart-icon fa-sharp fa-solid fa-cart-shopping"></i>
+
+                                <span class="header__car-notification">3</span>
+
+                                <!-- không thẻ:
+                                header__car--no-cart -->
+                                <div class="header__cart-list">
+
+                                    <h3 class="header__cart-heading">Xe Vừa Thêm Vào Giỏ Hàng!</h3>
+
+                                    <a href="./g63.html" class="link-g63">
+                                        <ul class="header__cart-list-item">
+                                            <li class="header__cart-item">
+                                                <img src="./slide-car/G63(V1).webp" alt="" class="header__cart-item-img">
+    
+                                                <div class="header__cart-item-info">
+                                                    <div class="header__cart-item-head">
+                                                        <h3 class="header__cart-item-name">G 63 (V1)
+                                                        </h3>
+    
+                                                        <div class="header__cart-item-pryce-wrap">
+                                                            <span class="header__cart-item-pryce">11.750.000.000 Đ</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </a>
+
+                                    <a href="./maybach.html" class="link-maybach">
+                                        <ul class="header__cart-list-item">
+                                            <li class="header__cart-item">
+                                                <img src="./slide-car/merc-s-class.webp" alt="" class="header__cart-item-img">
+    
+                                                <div class="header__cart-item-info">
+                                                    <div class="header__cart-item-head">
+                                                        <h3 class="header__cart-item-name">Mercedes S Class</h3>
+                                                        </h3>
+    
+                                                        <div class="header__cart-item-pryce-wrap">
+                                                            <span class="header__cart-item-pryce">8.199.000.000 ĐĐ</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </a>
+
+                                    <a href="./coupe.html" class="link-coupe">
+                                        <ul class="header__cart-list-item">
+                                            <li class="header__cart-item">
+                                                <img src="./slide-car/Coupé.webp" alt="" class="header__cart-item-img">
+    
+                                                <div class="header__cart-item-info">
+                                                    <div class="header__cart-item-head">
+                                                        <h3 class="header__cart-item-name">Coupe
+                                                        </h3>
+    
+                                                        <div class="header__cart-item-pryce-wrap">
+                                                            <span class="header__cart-item-pryce">5.309.000.000 Đ</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </a>
+
+                                    <style>
+                                        .header__cart-view-cart {
+                                            float: right;
+                                            margin: 0 12px 12px 0;
+                                            border: 1px solid #bbb;
+                                            color: #000;
+                                            padding: 8px 12px;
+                                            text-decoration: none;
+                                            border-radius: 4px;
+                                        }
+    
+                                        .header__cart-view-cart:hover
+                                        {
+                                            color: #fff;
+                                            background-color: #F05D41;
+                                            transition: background-color 0.2s linear;
+                                        }
+                                    </style>
+                                    <a href="#" class="header__cart-view-cart">Xem Giỏ Hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- nav list -->
+            <div class="menu-list show-menu" id="menu-list">
+                <ul class="list-car">
+                    <li class="list-iteam--car">
+                        <a href="" class="link-list">
+                            <i class="icon-car fa-solid fa-car"></i>
+                            Các dòng xe
+                        </a>
+
+                        <ul class="sub-list--car">
+                            <li><a href="./car.html">Tất cả các dòng xe</a></li>
+                            <li><a href="./sedan.html">SeDan</a></li>
+                            <li><a href="./suv.html">SUV / Xe địa hình</a></li>
+                            <li><a href="">Coupe</a></li>
+                            <li><a href="">Xe đa dụng</a></li>
+                            <li><a href="">Mercedes - EQ</a></li>
+                            <li><a href="">Mercedes - AMG</a></li>
+                            <li><a href="">Mercedes - Maybach</a></li>
+                            <li><a href="">Các dòng xe</a></li>
+                            <li><a href=""><i class="icon-sub--car fa-solid fa-car"></i>Chọn cấu hình xe</a></li>
+                            <li><a href=""><i class="icon-sub--car fa-sharp fa-solid fa-cart-shopping"></i>Tìm xe có sẵn tại đại lý</a></li>
+                            <li><a href=""><i class="icon-sub--car fa-brands fa-golang"></i></i></i>Đăng ký lái thử</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="list-iteam--car">
+                        <a href="" class="link-list">
+                            Mua trực tuyến
+                        </a>
+
+                        <ul class="sub-list--car">
+                            <li><a href="./chon_xe_co_san.html">Xe mới</a></li>
+                            <li><a href="">Xe đã qua sử dụng</a></li>
+                            <li><a href="">Phụ kiện chính hãng</a></li>
+                            <li><a href="">Bộ sưu tập Mercedes-Benz</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="list-iteam--car">
+                        <a href="" class="link-list">
+                            Tư vấn mua xe
+                        </a>
+
+                        <ul class="sub-list--car">
+                            <li><a href="">Chọn cấu hình xe.</a></li>
+                            <li><a href="">Đăng ký lái thử</a></li>
+                            <li><a href="">Danh sách Nhà phân phối</a></li>
+                            <li><a href="">Bảng giá & brochure</a></li>
+                            <li><a href="">Khối doanh nghiệp & Khách hàng tương lai</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="list-iteam--car">
+                        <a href="" class="link-list">
+                            Dịch vụ
+                        </a>
+
+                        <ul class="sub-list--car">
+                            <li><a href="">Đặt hẹn dịch vụ trực tuyến</a></li>
+                            <li><a href="">Dịch vụ & bảo dưỡng </a></li>
+                            <li><a href="">Bảo hành & Bảo hiểm </a></li>
+                            <li><a href="">Phụ tùng & dầu chính hãng </a></li>
+                            <li><a href="">Phong cách sống Mercedes </a></li>
+                            <li><a href="">Bản tin kỹ thuật</a></li>
+                            <li><a href="">Thông cáo triệu hồi</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="list-iteam--car">
+                        <a href="" class="link-list">
+                            Thế giới Mercedes-Benz
+                        </a>
+
+                        <ul class="sub-list--car">
+                            <li><a href="">Hệ thống đa phương tiện MBUX</a></li>
+                            <li><a href="./g63.html">Sáng tạo & công nghệ</a></li>
+                            <li><a href="">Thiết kế & xe ý tưởng</a></li>
+                            <li><a href="">Phát triển bền vững</a></li>
+                            <li><a href="">Về Mercedes-Benz Việt Nam</a></li>
+                            <li><a href="">Xe Mercedes-AMG</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- slide -->
+        <div class="slider">
+            <img id="imgs" onclick="changeImg()" class="img" width="100%" src="./slide-car/g63.avif" alt="">
+
+            <div class="text-slider bottom">
+                <h1 class="text-heading">G-Class.</h1>
+                <p class="text-description">Mạnh mẽ vượt thời gian.
+                </p>
+
+                <!-- <button class="btn">
+                    <a href="./chon_xe_co_san.html" class="link-btn">Chọn xe có sẵn ưu đãi</a>
+                </button>
+                <button class="btn-sale">
+                    <a href="" class="link-btn">
+                        Khám phá ưu đãi
+                    </a>
+                </button> -->
+            </div>
+        </div>
+        <!-- car -->
+        <div class="infor--car">
+            <div class="car__Control">
+                <div class="span">
+                    <span class="text--car">Cấu hình xe thực tế có thể khác biệt so với hình ảnh, video, và thông tin minh họa. Vui lòng liên hệ các đại lý ủy quyền để tìm hiểu cấu hình chính xác tại từng thời điểm. </span>
+                </div>
+    
+                <div class="dacDiem">
+                    <span class="span-text">Nổi bật</span>
+    
+                    <h3 class="header--car">Nhiều năm về trước, các kỹ sư ở Graz đã phát triển một dòng xe mới.</h3>
+    
+                    <p class="text--paragerap">Một dòng xe địa hình đầy tính biểu tượng: mạnh mẽ và trường tồn. Các bộ phận trên xe được thiết kế từ ngày trước vẫn tiếp tục thực hiện các chức năng tương tự cho đến ngày nay. Đó là sự khác biệt của G-Class qua nhiều thế hệ.</p>
+                </div>
+
+                <div class="img">
+                    <img width="100%" src="./slide-car/g63_2.webp" alt="">
+                </div>
+    
+                <div class="dacDiem margin_top">
+                    <span class="span-text">Thiết kế</span>
+    
+                    <h3 class="header--car">Thiết kế nói lên tất cả.</h3>
+    
+                    <p class="text--paragerap">Độc nhất vô nhị hơn 40 năm: không gì sánh bằng G-Class ngoài G-Class. Ngoại thất và nội thất không chỉ độc nhất - với G manufaktur mới, cá tính của bạn được phản ánh theo cách nổi bật.</p>
+                </div>
+
+                <div class="img" data-aos="fade-up" data-aos-offset="500"
+                data-aos-easing="linear">
+                    <div class="col-2">
+                        <div class="img__car">
+                            <div class="overflow">
+                                <img class="img--text-car img-hover" src="./slide-car/g63_3.avif" alt="">
+                            </div>
+    
+                            <div class="intro">
+                                <span class="text-car--span">
+                                    Khám phá ngoại thất
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="img__car">
+                            <div class="overflow">
+                                <img class="img--text-car img-hover" src="./slide-car/g63_4.jpeg" alt="">
+                            </div>
+    
+                            <div class="intro">
+                                <span class="text-car--span">
+                                    Về thiết kế nội thất
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dacDiem margin_top">
+                    <span class="span-text">Tiện nghi</span>
+    
+                    <h3 class="header--car">Bên ngoài: phóng khoáng. Bên trong: tiện nghi.</h3>
+    
+                    <p class="text--paragerap">Ai khẳng định ngồi trên xe địa hình thì không thoải mái? </p>
+                </div>
+
+                <div class="img align-items" data-aos="fade-up" data-aos-offset="500"
+                data-aos-easing="linear">
+                    <div class="col-2">
+                        <div class="img__car">
+                            <div class="overflow">
+                                <img class="img--text-car img-hover" src="./slide-car/g63_5.avif" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="list-infor ">
+                            <div class="header-infor">
+                                <h2 class="text-infor">Tiện nghi nổi bật:</h2>
+                            </div>
+
+                            <ul class="list--infor-car">
+                                <li class="list--item-car">Bộ ghế điều chỉnh đa hướng chủ động</li>
+                                <li class="list--item-car">Hộp số AMG SPEEDSHIFT 9G-TRONIC</li>
+                                <li class="list--item-car">Hệ thống treo với bộ giảm xóc thích ứng</li>
+                                <li class="list--item-car">Buồng lái màn hình rộng</li>
+                                <li class="list--item-car">Chức năng khởi động bằng nút bấm Keyless-Start</li>
+                                <li class="list--item-car">Cổng chờ lắp rơ moóc</li>
+                                <li class="list--item-car">Kính màu tối cách nhiệt và chống ồn</li>
+                                <li class="list--item-car">COMAND Online với màn hình 12,3 inch</li>
+                                <li class="list--item-car">Điều khiển bằng giọng nói LINGUATRONIC</li>
+                                <li class="list--item-car">Hiển thị nhiệt độ bên ngoài</li>
+                                <li class="list--item-car">Hệ thống sưởi ghế ở hàng ghế trước và sau</li>
+                                <li class="list--item-car">Hệ thống âm thanh vòm Burmester®</li>
+                                <li class="list--item-car">Touchpad điều khiển cảm ứng trên bệ trung tâm</li>
+                                <li class="list--item-car">Định vị GPS tích hợp bản đồ Việt Nam</li>
+                                <li class="list--item-car">Đèn viền nội thất với 64 màu và 10 cách phối màu</li>
+                                <li class="list--item-car">Điều hoà khí hậu tự động 3 vùng THERMOTRONIC </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dacDiem margin_top">
+                    <span class="span-text">An toàn</span>
+    
+                    <h3 class="header--car">Tận hưởng sự an toàn ưu việt.</h3>
+    
+                    <p class="text--paragerap">Công nghệ lái tối tân giúp chủ nhân an tâm thư giãn trên mọi cung đường.</p>
+                </div>
+
+                <div class="img flex align-items" data-aos="fade-up" data-aos-offset="500"
+                data-aos-easing="linear">
+                    <div class="col-2">
+                        <div class="img__car">
+                            <div class="overflow">
+                                <img class="img--text-car img-hover" src="./slide-car/g63_6avif.avif" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="list-infor">
+                            <div class="header-infor">
+                                <h2 class="text-infor">Trang bị an toàn nổi bật:</h2>
+                            </div>
+
+                            <ul class="list--infor-car">
+                                <li class="list--item-car">Hệ thống treo AMG RIDE CONTROL</li>
+                                <li class="list--item-car">100% khóa vi sai với 3 chế độ</li>
+                                <li class="list--item-car">DYNAMIC SELECT với 4 chế độ lái “Eco”, “Comfort”, “Sport” và “Individual”</li>
+                                <li class="list--item-car">Gói đậu xe với camera 360°</li>
+                                <li class="list--item-car">Cụm đèn trước MULTIBEAM LED với thiết kế mới</li>
+                                <li class="list--item-car">Hỗ trợ đỗ xe chủ động tích hợp PARKTRONIC</li>
+                                <li class="list--item-car">Chức năng cảnh báo mất tập trung ATTENTION ASSIST</li>
+                                <li class="list--item-car">Hệ thống tự động bảo vệ PRE-SAFE® và PRE-SAFE® Sound</li>
+                                <li class="list--item-car">Phanh tay điều khiển điện với chức năng nhả phanh thông minh</li>
+                                <li class="list--item-car">Hệ thống khóa trung tâm với chức năng khóa tự động khi xe chạy và mở cửa trong trường hợp khẩn cấp</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <div class="contact--footer" data-aos="fade-up" data-aos-offset="500"
+                data-aos-easing="linear">
+                <div class="contact">
+                    <h4 class="text-footer">Giữ liên lạc với chúng tôi.</h4>
+                    <p class="paragrap-footer">Các thông tin hiện tại được điều chỉnh theo sở thích của bạn.</p>
+                </div>
+
+                <div class="btn--contact">
+                    <button class="btn-footer">
+                        <a href="" class="link-footer">Đăng ký nhận bản tin</a>
+                    </button>
+                </div>
+            </div>
+
+            <div class="advise">
+                <div class="list-advise">
+                    <h4 class="text-advise">Mua xe</h4>
+
+                    <ul class="list-footer">
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Xe đã qua sử dụng</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Xe mới</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Chọn cấu hình xe</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Bảng giá & brochure</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="list-advise">
+                    <h4 class="text-advise">Tư vấn mua xe</h4>
+
+                    <ul class="list-footer">
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Yêu cầu tư vấn</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Đăng ký lái thử</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Tìm Nhà Phân Phối gần nhất</a>
+                        </li>   
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Nhà Phân Phối gần nhất</a>
+                        </li>   
+                    </ul>
+                </div>
+
+                <div class="list-advise">
+                    <h4 class="text-advise">Dịch vụ</h4>
+
+                    <ul class="list-footer">
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Đặt hẹn dịch vụ</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Ưu đãi đặc biệt</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Phụ kiện chính hãng</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Triệu hồi xe</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="list-advise">
+                    <h4 class="text-advise">Các dòng xe</h4>
+
+                    <ul class="list-footer">
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">SUV</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Sedan</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Mercedes-AMG</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Mercedes-Maybach</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="list-advise">
+                    <h4 class="text-advise">Giới thiệu</h4>
+
+                    <ul class="list-footer">
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Liên hệ</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Câu chuyện của chúng tôi</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Phát triển bền vững & tương lai</a>
+                        </li>
+
+                        <li class="list-item--footer">
+                            <a href="" class="link-item--footer">Tin tức & sự kiện</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-footer"></div>
+
+            <div class="license">
+                <div class="license-footer">
+                    <ul class="list-license-footer">
+                        <li class="list-item-license-footer">
+                            <a href="" class="link-license">Bản quyền nội dung</a>
+                        </li>
+
+                        <li class="list-item-license-footer">
+                            <a href="" class="link-license">Cài đặt</a>
+                        </li>
+
+                        <li class="list-item-license-footer">
+                            <a href="" class="link-license">Quyền riêng tư và bảo vệ dữ liệu</a>
+                        </li>
+
+                        <li class="list-item-license-footer">
+                            <a href="" class="link-license">Thông tin pháp lý</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="license-footer">
+                    <ul class="list-license-footer">
+                        <li class="list-item-license-footer">
+                            <a href="" class="link-license--footer">
+                                <i class="icon-footer fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-item-license-footer">
+                            <a href="" class="link-license--footer">
+                                <i class="icon-footer fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-item-license-footer">
+                            <a href="" class="link-license--footer">
+                                <i class="icon-footer fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+
+                        <li class="list-item-license-footer">
+                            <a href="" class="link-license--footer">
+                                <i class="icon-footer fa-brands fa-line"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assest/css/javascript/main.js"></script>
+
+    <!-- <script>
+        // slide
+        var index = 1;
+
+        var changeImg = function () {
+            var imgs = ['anh9.avif', 'anh2.avif', 'anh6.webp', 'anh4.avif', 'anh8.avif'];
+            document.querySelector('#imgs').src = imgs[index];
+            index++;
+            if(index === 5) {
+                index = 0;
+            }
+        }
+
+        setInterval(changeImg, 2500);
+    </script> -->
+
+    <!-- <script src="./bootstrap-4.6.2-dist/js/bootstrap.js"></script> -->
+    <!-- animation scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- bắt sự kiện animetions scroll -->
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

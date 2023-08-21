@@ -1,0 +1,274 @@
+.list-sp {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+.sport-car {
+    width: 88%;
+    /* background-color: #fff; */
+    margin: 0 auto;
+}
+
+.list-sport {
+    display: flex;
+}
+
+.list-item-sport {
+    list-style: none;
+}
+
+.link-sport:hover {
+    opacity: 0.8;
+}
+
+.link-sport {
+    color: #2e2e2e;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+/* container */
+.container {
+    width: 100%;
+    background-color: #000;
+}
+
+.container--paragrap {
+    width: 88%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.title-heading {
+    display: flex;
+}
+
+.heading-container {
+    display: block;
+    color: #fff;
+    font-size: 64px;
+    line-height: 72px;
+    /* margin: 0px 106.35px; */
+    font-weight: 100;
+    text-align: left;
+}
+
+.list-conatiner {
+    display: flex;
+}
+
+.list-item-container {
+    color: #fff;
+    margin: 24px 26px 0 0;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.icon-container {
+    color: #0078D6;
+}
+
+/* car */
+.car {
+    width: 100%;
+    background-color: #fff;
+}
+
+.bo-loc {
+    width: 408px;
+    /* width: 88%; */
+    margin-left: 88px;
+    padding: 24px 24px 24px 0;
+}
+
+.all-tab--car {
+    display: flex;
+}
+
+.heading-tab-car {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin: 8px 0 48px;
+}
+
+.list-boloc {
+    color: #333;
+    line-height: 1.25rem;
+    margin-bottom: 1px;
+}
+
+.list-item-boLoc:hover {
+    margin: -1px -1px 0;
+    border: 1px solid #bbb;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.list-item-boLoc {
+    background-color: #fff;
+    border-radius: 2px;
+    list-style: none;
+    padding: 24px 0;
+    margin: -1px -1px 0px;
+    border-bottom: 1px solid #bbb;
+}
+
+.link-boLoc {
+    color: #000;
+    text-decoration: none;
+    margin-left: 20px;    
+    font-size: 18px;
+}
+
+.margin-left {
+    margin-left: 26px;
+}
+
+.icon-boloc {
+    margin-right: 16px;
+}
+
+/* infor car */
+
+.infor--car {
+    /* padding: 24px 44px 8px 16px;
+    width: 70%; */
+
+    padding: 24px 22px 8px 8px;
+    width: 105%;
+}
+
+.infor {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 48px;
+}
+
+.span-car {
+    font-size: 24px;
+    line-height: 50px;
+}
+
+select {
+    padding: 10px 2px 8px 4px;
+    cursor: pointer;
+    outline: none;
+    background-color: #efefef;
+}
+
+select:hover {
+    background-color: #fff;
+}
+
+/* content-infor--car */
+.content-infor--car {
+    display: flex;
+    width: 100%;
+}
+
+.content-car {
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.2),0 2px 4px 0 rgba(0,0,0,.2);
+    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+
+.margin-right {
+    margin-right: 54px;
+}
+
+.content-car:first-child {
+    margin-right: 54px;
+}
+
+.content-car:last-child {
+    margin-left: 54px;
+}
+
+.colum-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img--Screen {
+    padding: 60px 50px;
+}
+
+.content--car-text {
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 40px;
+    line-height: 24px;
+}
+
+.list-content--car {
+    text-align: center;
+}
+
+.list-item--car {
+    list-style: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.price--car {
+    text-align: center;
+    display: block;
+    margin: 0 15px;
+    padding: 16px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+}
+
+.list--screen {
+    text-align: left;
+    margin: 20px;
+}
+
+.list-item-screen {
+    list-style: none;
+    color: #6e6e6e;
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    background-color: #dedede;
+    width: 50%;
+    border-radius: 40px;
+    text-align: center;
+    padding: 4px;
+}
+
+.icon-screen {
+    margin-right: 4px;
+}
+
+.btn-show {
+    margin: 10px 20px 15px;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-show:hover {
+    background-color: rgba(0,0,0,.08);
+    transition: background-color .3s ease-in-out;
+}
+
+.link--schow {
+    text-decoration: none;
+    font-size: 18px;
+    color: #009cff;
+}
